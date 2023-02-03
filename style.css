@@ -1,0 +1,80 @@
+
+.main-body{
+    background-image: url(./bg4.jpg);
+    padding: 50px;
+    position: center;
+    align-content: center;
+}
+
+.main-nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-list{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color: yellow;
+    font-size: 30px;
+    text-decoration: line-through;
+    font-weight: 900px;
+    padding-right: 15rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.first-parent{
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+}
+li {
+    list-style-type: none;
+}
+.btn{
+    background-color: rgb(1, 21, 38);
+    color: azure;
+    padding: 50px 25px;
+    padding: 1rem 6rem;
+}
+.header-one{
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+.info{
+   color: white;
+   font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.first-parent{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.second-child{
+    margin-bottom: 1000px;
+}
+.girl-image{
+    margin: 19px auto;
+    display: block;
+    width: 300px;
+  
+    margin-left: 190px;
+}
